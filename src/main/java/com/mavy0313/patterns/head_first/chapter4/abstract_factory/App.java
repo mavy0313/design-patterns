@@ -4,6 +4,7 @@ public class App {
   public static void main(String[] args) {
     createUI(new MacFactory());
     createUI(new WinFactory());
+    createUI(new LinuxFactory());
   }
 
   public static void createUI(UIFactory uiFactory) {
