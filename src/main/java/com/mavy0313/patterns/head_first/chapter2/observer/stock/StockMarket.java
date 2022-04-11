@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StockMarket implements Subject {
 
-  private List<Observer> observers = new ArrayList<>();
+  private final List<Observer> observers = new ArrayList<>();
 
   private double microsoftStockPrice;
   private double teslaStockPrice;

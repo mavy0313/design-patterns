@@ -1,4 +1,4 @@
-package com.mavy0313.patterns.refactoring_guru.chainofresponsibility;
+package com.mavy0313.patterns.refactoring_guru.chainofresponsibility.logger;
 
 public class StdOutLogger extends Logger {
 
